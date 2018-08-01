@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                     favFood.setError(null);
                     favNumber.setError(null);
                     firstName.setError("Please type your first name before submit");
-                   Toast toast= Toast.makeText(MainActivity.this, "Type Favourite Number", Toast.LENGTH_SHORT);
+                   Toast toast= Toast.makeText(MainActivity.this, "Type Your First Name", Toast.LENGTH_SHORT);
                     toast.setGravity(Gravity.CENTER|Gravity.CENTER_HORIZONTAL,0,0);
                     toast.show();
 
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                     favFood.setError(null);
                     favNumber.setError(null);
                     lastName.setError("Please type your last name before submit");
-                   Toast toast =Toast.makeText(MainActivity.this, "Type Favourite Number", Toast.LENGTH_SHORT);
+                   Toast toast =Toast.makeText(MainActivity.this, "Type Your Last Name", Toast.LENGTH_SHORT);
                     toast.setGravity(Gravity.CENTER|Gravity.CENTER_HORIZONTAL,0,0);
                     toast.show();
 
